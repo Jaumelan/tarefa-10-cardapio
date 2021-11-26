@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte seu Bronco Burguer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bronco Burguer</h1>
+    </header>
+    <main>
+        <h2>Monte seu Hamburguer</h2>
+        <form action="">
+
+            <fieldset>
+                <legend>Escolha a opção de Pão</legend>
+                <div>
+                    <input type="radio" name="pão" id="paoFrances">
+                    <label for="paoFrances">Pão Francês</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="pão" id="paoAustraliano">
+                    <label for="paoAustraliano">Pão Australiano</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="pão" id="paoBrioche">
+                    <label for="paoBrioche">Pão de Brioche</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a opção de Hamburguer</legend>
+                <div>
+                    <input type="radio" name="hamburguer" id="hamburguerPicanha">
+                    <label for="hamburguerPicanha">Hamburguer de Picanha</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="hamburguer" id="hamburguerCostela">
+                    <label for="hamburguerCostela">Hamburguer de Costela</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="hamburguer" id="hamburguerVegano">
+                    <label for="hamburguerVegano">Hamburguer Vegano</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha uma opção de Salada</legend>
+
+                <div>
+                    <input type="radio" name="salada" id="alface">
+                    <label for="alface">Alface</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="salada" id="tomate">
+                    <label for="tomate">Tomate</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="salada" id="semSalada">
+                    <label for="semSalada">Sem salada</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha uma opção de Queijo</legend>
+
+                <div>
+                    <input type="radio" name="queijo" id="mussarela">
+                    <label for="mussarela">Mussarela</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="queijo" id="prato">
+                    <label for="prato">Prato</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="queijo" id="cheddar">
+                    <label for="cheddar">Cheddar</label>
+                </div>
+            </fieldset>
+            <div id="buttons">
+                <button type="reset">Cancelar</button>
+                <button type="button" onclick="calcularPreco();">Enviar Pedido</button>
+            </div>
+            <div id="comanda">
+                <p id="comandaP"></p>
+                <ul id="listaIngrediente">
+
+                </ul>
+            </div>
+        </form>
+        
+        <script type="text/javascript" src="valores.js" defer></script>
+    </main>
+    
+</body>
+</html>

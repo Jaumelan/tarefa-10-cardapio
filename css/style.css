@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5% 0;
+    background: rgb(235, 163, 112);
+
+}
+
+header {
+    background: url(../assets/img/MainBackground.jpg) no-repeat center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 550%;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(235, 163, 112);
+}
+
+fieldset {
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    justify-content: center;
+    gap: 3%;
+}
+
+legend {
+    background: #000;
+    color: #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: 125%;
+    align-self: center;
+    text-align: center;
+
+}
+
+label {
+    font-family: 'Noto Serif', serif;
+    font-size: 125%;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    
+}
+
+button {
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+button[type="reset"] {
+    background-color: rgb(243, 52, 52);
+    width: 30%;
+}
+
+button[type="reset"]:hover {
+    box-shadow: 4px 4px 4px 2px #fff;
+    -webkit-box-shadow: 4px 4px 4px 2px #fff; 
+    background-color: rgb(214, 80, 80);
+
+}
+
+button[type="submit"] {
+    background-color: rgb(4, 70, 4);
+    width: 35%;
+}
+
+button[type="submit"]:hover {
+    box-shadow: 4px 4px 4px 2px #fff;
+    -webkit-box-shadow: 4px 4px 4px 2px #fff; 
+    background-color: rgb(37, 95, 37);
+}
+
+#comanda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+#comanda>p {
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
