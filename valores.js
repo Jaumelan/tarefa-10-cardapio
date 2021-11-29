@@ -13,11 +13,6 @@ function calcularPreco() {
     let queijo = document.querySelector('input[name="queijo"]:checked').id;
     let hamburger = document.querySelector('input[name="hamburguer"]:checked').id;
 
-    console.log(tipoPao);
-    console.log(salada);
-    console.log(queijo);
-    console.log(hamburger);
-
     //preço por tipo de pão
     if (tipoPao == "paoFrances") {
         valorTotal += 3;
